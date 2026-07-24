@@ -4,7 +4,7 @@ Moon_Gravity = (1/6) * 9.8
 
 # User defined function
 def calculate_weight(mass, gravity):
-    return mass * gravity
+return mass * gravity
 
 # Main execution
 mass = float(input("Enter the mass of the object in kg: "))
